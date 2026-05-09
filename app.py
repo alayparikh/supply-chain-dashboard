@@ -22,9 +22,8 @@ DEFAULT_RATES = pd.DataFrame([
     {'carrier': 'X', 'supplier': 'B', 'store': 1, 'flat_rate': 1200.0, 'per_lb_rate': None},
     {'carrier': 'X', 'supplier': 'B', 'store': 2, 'flat_rate': 1200.0, 'per_lb_rate': None},
     {'carrier': 'Y', 'supplier': 'A', 'store': 1, 'flat_rate': None, 'per_lb_rate': 0.12},
-    {'carrier': 'Y', 'supplier': 'A', 'store': 2, 'flat_rate': None, 'per_lb_rate': 
-
-     DEFAULT_BASE = pd.DataFrame([
+    {'carrier': 'Y', 'supplier': 'A', 'store': 2, 'flat_rate': None, 'per_lb_rate': 0.12},
+    #  DEFAULT_BASE = pd.DataFrame([
     {'week': 'W1', 'store': 1, 'supplier': 'A', 'base_weight_lb': 17105.88, 'wrench_qty': 4771.8},
     {'week': 'W1', 'store': 2, 'supplier': 'A', 'base_weight_lb': 15540.36, 'wrench_qty': 3960.0},
     {'week': 'W2', 'store': 1, 'supplier': 'A', 'base_weight_lb': 18338.32, 'wrench_qty': 5057.8},
