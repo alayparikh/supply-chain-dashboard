@@ -1,7 +1,5 @@
 # supply-chain-dashboard
 
-# tool-depot-supplier-dashboard
-
 Free Streamlit MVP for supplier selection and shipping cost analysis.
 
 ## Run locally
